@@ -1,0 +1,38 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - interview
+  - books
+  - blogs
+  - dataset
+  - coding
+
+entities:
+  - topic
+  - data
+
+actions:
+  - action_return_interview
+  - action_return_dataset
+
+responses:
+  utter_greet:
+  - text: "Hey! How can I help you?"
+
+  utter_books:
+  - text: "Here is are the books links if you don't find the book you need please use 2nd link : \nhttps://drive.google.com/drive/folders/1ucbD6vwfmYuYQX1LhVw6_MBC3TexG4BN?usp=sharing \nhttps://1lib.in/"
+
+  utter_blogs:
+  - text: "you can follow up this links for blogs \nhttps://medium.com/ \nhttps://towardsdatascience.com/ \nhttps://www.analyticsvidhya.com/blog/?utm_source=feed"
+
+  utter_coding:
+  - text: "you can follow up this links for coding platforms \nhttps://www.hackerearth.com/ \nhttps://www.topcoder.com/ \nhttps://www.hackerrank.com/auth/login"
+
+  utter_goodbye:
+  - text: "Bye"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
