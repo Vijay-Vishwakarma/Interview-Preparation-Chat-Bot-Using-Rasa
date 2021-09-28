@@ -1,0 +1,88 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: interview
+  examples: |
+    - what are the interview questions for [NLP](topic)
+    - what are the interview questions for [python](topic)
+    - what are the interview questions for [ML](topic)
+    - what are the interview questions for [Machine Learning](topic)
+    - what are the interview questions for [DL](topic)
+    - what are the interview questions for [Deep Learning](topic)
+    - what are the interview questions for [DS](topic)
+    - what are the interview questions for [Data Science](topic)
+    - what are the interview questions for [stats](topic)
+    - can you give me the interview question on [statistics](topic)
+    - [NLP](topic) interview questions
+    - [Natural Language Processing](topic) interview questions
+    - [python](topic) interview questions
+    - [ML](topic) interview questions
+    - [Machine Learning]](topic) interview questions
+    - [DL](topic) interview questions
+    - [Deep Learning](topic) interview questions
+    - [DS](topic) interview questions
+    - [Data Science](topic) interview questions
+
+- intent: dataset
+  examples: |
+    - [titanic](data) dataset
+    - Can you provide me the [titanic](data) dataset
+    - Can you provide me the [titanic](data) dataset for the machine learning problem?
+    - please provide me the [titanic](data) dataset
+    - where is the [titanic](data) dataset
+
+- intent: books
+  examples: |
+    - provied me the books for the data science
+    - books for data science
+    - books for data alaytics
+    - books for web scraping
+    - can you provide me the books for data analytics
+
+- intent: blogs
+  examples: |
+    - where can i find the blogs on data science
+    - blogs on data science
+    - where can i find the blogs on python
+    - blogs on python
+    - best blogs for data science
+
+- intent: coding
+  examples: |
+    - what are the coding platforms
+    - where to practice coding 
+    - best coding platform
+    - best coding platforms
+    - competitive coding platforms
+
+   
+
